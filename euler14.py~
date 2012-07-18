@@ -1,0 +1,17 @@
+m = []
+n = 0
+for i in xrange (13, 1, -1):
+    n = i
+    while i != 1:
+        if i % 2 == 0:
+            i = i*3+1
+        else:
+            i = i / 2
+        m[n] += 1 #Traceback (most recent call last):
+                  #  File "euler14.py", line 10, in <module>
+                  #    m[n] += 1
+                  #IndexError: list index out of range
+
+print m[12]
+print m[6]
+print m[1]

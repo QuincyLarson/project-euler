@@ -1,0 +1,8 @@
+
+j = []
+for i in xrange (10851475143, n):
+    if j % i = 0
+    print j.append[]
+
+
+n = 600851475143

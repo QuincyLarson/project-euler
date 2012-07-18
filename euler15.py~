@@ -1,0 +1,1 @@
+# We know it takes 20 steps south and 20 steps east to get from the northwest corner to the southwest corner. Each step is binary - it is one or the other. First let's attempt to use combinatrics to determine how many steps total - 20! * 20!
